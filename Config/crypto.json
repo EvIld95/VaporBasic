@@ -2,7 +2,7 @@
     "hash": {
         "method": "sha256",
         "encoding": "hex",
-        "key": "0000000000000000"
+        "key": "abcdefghijklmnop"
     },
 
     "cipher": {

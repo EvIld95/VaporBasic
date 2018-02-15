@@ -1,12 +1,20 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>#import("title")</title>
-	<link rel="stylesheet" href="/styles/app.css">
-</head>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+            <title>#import("title")</title>
+            <link rel="stylesheet" href="/styles/font-awesome.min.css">
+            <link rel="stylesheet" href="/styles/bootstrap.css">
+            <link rel="stylesheet" href="/styles/style.css">
+    </head>
 <body>
+    #import("navbar")
+    #import("content")
 
-#import("content")
-
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/popper.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="https://cdn.ckeditor.com/4.7.3/standard/ckeditor.js"></script>
+    <script>CKEDITOR.replace( 'editor1' );</script>
 </body>
 </html>
